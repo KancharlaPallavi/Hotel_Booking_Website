@@ -1,15 +1,25 @@
 <html>
 <head>
 	<title>Detail</title>
+	<style type="text/css">
+		body{
+			width: 100vw;
+			height: 100vh;
+		}
+		#container{
+			width: 100vw;
+			height: 100vh;
+		}
+	</style>
 </head>
 <body>
 <div id="container">
-	<div id="header">
-		<a href="index.html"><img src="assests/images/logo.png" alt="logo" height="150" width="200" /></a>
+	<header>
+		<a href="index.html"><img src="assests/images/logo.png" alt="logo" style="height: 60px; width: 60px"/></a>
 		<a href="login.html" target="_self">Login</a>
-	</div>
+	</header>
 	<div id="content">
-		<img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br>
+		<img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="width: 500px; height: 500px"><br>
 		<form action="payment.html">
 			<label>Adults:</label>
 			<input type="number" name="adult" min="1" required><br>
@@ -37,13 +47,13 @@
 		<h5>DESCRIPTION</h5>
 		<p>Now I am working on checkpoint 2. It is interesting to do this project and waiting to learn more and more.</p>
 	</div>
-	<div id="footer">
+	<footer>
 		<a href="contact.html" target="_self">Contact Us</a><br>
 		<a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" height="20px" width="22px"></a>
 		<a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" height="20px" width="22px"></a>
 		<a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" height="20px" width="22px"></a>
 		<div>&copy; 2020 ROOM SEARCH PVT. LTD</div>
-	</div>
+	</footer>
 </div>
 </body>
 </html>
