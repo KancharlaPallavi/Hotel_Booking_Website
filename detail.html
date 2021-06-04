@@ -3,12 +3,17 @@
 	<title>Detail</title>
 	<style type="text/css">
 		body{
-			width: 100vw;
-			height: 100vh;
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			background-color: #e0e0e0;
+		}
+		header, footer{
+			background-color: rosybrown;
 		}
 		#container{
-			width: 100vw;
-			height: 100vh;
+			width: 100%;
+			height: 100%;
 		}
 	</style>
 </head>
@@ -19,8 +24,8 @@
 		<a href="login.html" target="_self">Login</a>
 	</header>
 	<div id="content">
-		<img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="width: 500px; height: 500px"><br>
-		<form action="payment.html">
+		<img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="width: 500px; height: 500px; margin: 2% 4% 0%"><br>
+		<form action="payment.html" style="margin: 0% 4% 1%">
 			<label>Adults:</label>
 			<input type="number" name="adult" min="1" required><br>
 			<label>Name:</label>
@@ -33,19 +38,21 @@
 			<input type="text" name="price" readonly><br>
 			<button>Book Now</button>
 		</form>
-		<h2>Radisson Blu Hotel</h2>
-		<p>RATING</p>
-		<p>5 Star</p>
-		<p>AMENITIES</p>
-		<ul>
-			<li>Room service</li>
-			<li>Restaurant</li>
-			<li>Business center</li>
-			<li>Fitness center</li>
-			<li>Pool</li>
-		</ul>
-		<h5>DESCRIPTION</h5>
-		<p>Now I am working on checkpoint 2. It is interesting to do this project and waiting to learn more and more.</p>
+		<div style="margin: 1% 4% 2%">
+			<h2>Radisson Blu Hotel</h2>
+			<p>RATING</p>
+			<p>5 Star</p>
+			<p>AMENITIES</p>
+			<ul>
+				<li>Room service</li>
+				<li>Restaurant</li>
+				<li>Business center</li>
+				<li>Fitness center</li>
+				<li>Pool</li>
+			</ul>
+			<h5>DESCRIPTION</h5>
+			<p>Now I am working on checkpoint 2. It is interesting to do this project and waiting to learn more and more.</p>
+		</div>
 	</div>
 	<footer>
 		<a href="contact.html" target="_self">Contact Us</a><br>

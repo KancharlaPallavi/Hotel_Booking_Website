@@ -3,21 +3,37 @@
 	<title>Index</title>
 	<style type="text/css">
 		body{
-			width: 100vw;
-			height: 100vh;
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			background-color: #e0e0e0;
 		}
 		#container{
-			width: 100vw;
-			height: 100vh;
+			width: 100%;
+			height: 100%;
 		}
+		#searchbar{
+			height: 380px;
+			background-image:url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+			background-size: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		
 		.city_img{
+			padding: 4%;
+			border-radius: 25%;
 			width: 150px;
-			height: 150px
+			height: 150px;	
 		}
 		.social_img{
 			height: 20px;
 			width: 22px;
 		}
+		header, footer{
+			background-color: rosybrown;
+		}
+		
 	</style>
 </head>
 <body>
@@ -27,11 +43,15 @@
 		<a href="login.html" target="_self">Login</a>	
 	</header>
 	<div id="content">
-		<input type="text" name="city" placeholder="City"><br>
-		<a href="list.html"><img class="city_img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"></a>
-		<img class="city_img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg">
-		<img class="city_img" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg">
-		<img class="city_img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"><br>
+		<form id="searchbar">
+			<input type="text" name="city" placeholder="City"><br>
+		</form>
+		<div style="margin-right: 15%; margin-left: 15%; text-align: center;">
+			<a href="list.html"><img class="city_img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"></a>
+			<img class="city_img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg">
+			<img class="city_img" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg">
+			<img class="city_img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"><br>
+		</div>
 		<a href="index.html">View more&gt;&gt;</a>
 	</div>
 	<footer>
