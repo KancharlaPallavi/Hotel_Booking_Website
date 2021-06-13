@@ -8,19 +8,45 @@
 	padding-top: 5%;
 	padding-bottom: 1%;
 }
-		
+#input:focus{
+	outline: none;
+}
+#content{
+	display: flex;
+	flex-direction: column;
+}	
 .city_img{
-	padding: 4%;
 	border-radius: 25%;
 	width: 150px;
-	height: 150px;	
-	}
-.cityImage{
-	margin-right: 15%; 
-	margin-left: 15%; 
-	text-align: center;
+	height: 150px;
+	opacity: 1;
+	display: flex;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
 }
-		
+.cityImage{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 50px;
+}
+.cityImage img{
+	box-shadow: 10px 10px 10px grey;
+}	
+.image:hover img{
+	opacity: 0.5;
+}
+.cityName{
+	transition: 0.5s ease;
+	opacity: 0;
+	position: absolute;
+	transform: translate(-50%, 50%);
+	color: black;
+	margin-top: -6em;
+	margin-left: 4.5em;
+}
+.image:hover .cityName{
+	opacity: 1;
+}
 input{
 	width:30%; 
 	background-color: #f1f1f1;
@@ -31,8 +57,9 @@ input{
 	margin-top: 11%;
 }
 .viewmore{
+	padding-top: 5%;
 	padding-bottom: 7%;
 	text-decoration: none;
 	color: black;
-	margin: 43em;
+	align-self: center;
 }

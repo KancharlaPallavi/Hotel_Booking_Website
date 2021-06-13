@@ -1,12 +1,17 @@
 .hotel_img{
 	width: 250px;
 	height: 250px;
+	float: left;
 }
 .hotel1{
-	background-color: rgb(132,136,139);
+	background-color: lightgrey;
 	width: 40%;
 	margin: 2%;
 	display: inline-block;
+}
+.hotelData{
+	position: relative;
+	left: 30px;
 }
 li a{
 	color: black;
@@ -25,7 +30,7 @@ li{
 	display: none;
 }
 #content{
-	padding-bottom: 50px;
+	padding-bottom: 80px;
 }
 .hotel1 a{
 	text-decoration: none;
