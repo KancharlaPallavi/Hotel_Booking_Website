@@ -5,8 +5,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
-	padding-top: 5%;
-	padding-bottom: 1%;
 }
 #input:focus{
 	outline: none;
@@ -47,18 +45,16 @@
 .image:hover .cityName{
 	opacity: 1;
 }
-input{
+.input{
 	width:30%; 
 	background-color: #f1f1f1;
 	border:1px solid transparent;
 	border-radius: 12px;
 	padding: 10px;
 	font-size: 16px;
-	margin-top: 11%;
+	margin-top: 13%;
 }
 .viewmore{
-	padding-top: 5%;
-	padding-bottom: 7%;
 	text-decoration: none;
 	color: black;
 	align-self: center;

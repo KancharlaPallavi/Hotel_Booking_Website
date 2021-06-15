@@ -29,10 +29,9 @@ header img{
 	width: 60px;
 	margin-left: 1%;
 }
-.logo{
-	margin-right:1%; 
-	text-decoration: none;
-	color: black;
+#loginbutton{
+	margin: 1%;
+	float: right;
 }
 .social_img{
 	height: 20px;
@@ -48,3 +47,14 @@ header img{
 #contact{
 	margin-left:2%;
 }
+.form-group{
+	display: flex;
+	justify-content: center;
+}
+.col-form-label{
+	width: 30%;
+}
+.form-control{
+	width: 40%;
+}
+
