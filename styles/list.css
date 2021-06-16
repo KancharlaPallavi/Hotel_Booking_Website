@@ -32,3 +32,6 @@ ul{
 #map_view:focus{
 	display: inherit;
 }
+#star{
+	color: orange;
+}
