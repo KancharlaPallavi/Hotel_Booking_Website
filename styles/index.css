@@ -26,6 +26,7 @@
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 50px;
+	padding-left: 7%
 }
 .cityImage img{
 	box-shadow: 10px 10px 10px grey;
@@ -58,4 +59,81 @@
 	text-decoration: none;
 	color: black;
 	align-self: center;
+	margin-bottom: 8%;
+	margin-top: 5%;
+}
+@media only screen and (max-width: 576px){
+	body{
+		width: 100%;
+	}
+#searchbar{
+	width: 135%;
+}
+.input{
+	width:30%; 
+	background-color: #f1f1f1;
+	border:1px solid transparent;
+	border-radius: 12px;
+	font-size: 16px;
+	margin-top: 33%;
+}
+.cityImage{
+	display: flex;
+	flex-direction: column;
+	margin-top: 0%;
+	padding-left: 50%;
+}
+.image{
+	padding-bottom: 30px;
+}
+.viewmore{
+	margin-bottom: 25%;
+	margin-left: 40%;
+}
+}
+@media only screen and (min-width: 768px){
+	body{
+		width: 100%;
+	}
+#searchbar{
+	width: 135%;
+}
+.cityImage{
+	display: inline-block;
+}
+.image{
+	padding-top:10%;
+	padding-left: 28%;
+	display: inline-block;
+}
+.input{
+	margin-top: 20%;
+}
+.viewmore{
+	margin-left: 35%;
+}
+
+}
+@media only screen and (min-width: 992px){
+	#searchbar{
+	width: 100%;
+}	
+.cityImage{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 50px;
+	padding-left: 7%;
+}
+.viewmore{
+	margin-bottom: 8%;
+	margin-left: 0%;
+}
+.input{
+	margin-top: 13%;
+}
+.image{
+	padding: 0%;
+}
+
 }

@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>Detail</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -46,9 +47,9 @@
 	<div id="content">
 		<div id="bookingDetail">
 		<!-- Carousel -->
-		<div style="width: 70%; border-right: 1px solid black;">
+		<div  class="hotelimage">
 			<div id="carouselControls" class="carousel slide" data-ride="carousel">
-			  <div class="carousel-inner">
+			  <div class="carousel-inner" style="z-index: -1">
 			    <div class="carousel-item active">
 			      <img class="image" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
 			    </div>
@@ -70,7 +71,7 @@
 			</div>
 		</div>
 		<!-- Customer Login Details -->
-		<div class="formClass" style="width: 30%; line-height: 100%;">
+		<div class="formClass" >
 		<form action="payment.html" >
 			<div class="_form">
 			<label class="text">Adults:</label>
@@ -99,7 +100,7 @@
 		</div>
 	</div>
 	<!-- Hotel Details -->
-		<div style="margin: 1% 4% 2%">
+		<div class="hotelDetails" >
 			<h2>Radisson Blu Hotel</h2>
 			<h5 class="heading">RATING</h5>
 			<i class="fa fa-star" aria-hidden="true" id="star"></i>
