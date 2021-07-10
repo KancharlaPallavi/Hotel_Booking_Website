@@ -12,38 +12,11 @@
 <body>
 <div id="container">
 	<!-- Header -->
-	<header>
-		<a href="index.html"><img src="assests/images/logo.png" alt="logo" style="height: 60px; width: 60px"/></a>
-		<button type="button" id="loginbutton" class="btn btn-light btn-sm" data-toggle="modal" data-target="#login">LOGIN </button>	
-	</header>
-	<!-- Login Modal -->
-	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="exampleModalLabel">Please Login</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body" >
-                    <form>
-                        <div class="form-group">
-                            <label class="col-form-label" for="username">Username: </label>
-                            <input id="username" type="text" class="form-control" placeholder="Enter Usernme" required>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-form-label" for="password" autocomplete="off">Password: </label>
-                            <input id="password" type="password" class="form-control" placeholder="Enter Password" required>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" style="margin: auto;">Login</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    <header  id="header1"> </header>
+    <!-- Login Modal -->
+    <div id="loginModalCreation"> </div>
+
+    
 	<div id="content">
 		<!-- Hotel Details -->
 		<div id="hotel">
@@ -66,46 +39,14 @@
 			</div>
 		
 		<div id="pay">
-		<a href="payment.html" type="button" class="btn btn-success" style="color: white">PayNow</a></div></div>
+		<a id="payNow" type="button" class="btn btn-success" style="color: white">PayNow</a></div></div>
 	</div>
 	<!-- Contact Us Modal -->
-	<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="exampleModalLabel1">Get in touch</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                	<p>Thank you for reaching out!!!</p>
-                	<p>Please enter your email and we will get back to you.</p>
-                		<form>
-                			<div class="form-group">
-	                            <label class="col-form-label">Email:</label>
-	                            <input type="text" class="form-control" placeholder="Enter your emailid"required>
-	                        </div>
-                        </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Submit</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="contactUsModalCreation"></div>
     <!-- Footer -->
-	<footer style="display: flex">
-		<div id="contact">
-			<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#contact">ContactUs</button>
-		</div>
-		<div id="copyright">&copy; 2020 ROOM SEARCH PVT. LTD</div>
-		<div class="social_media_icons">
-			<a href="https://www.facebook.com" target="_blank"><img class="social_img" src="assests/images/facebook.png"></a>
-			<a href="https://www.instagram.com" target="_blank" ><img class="social_img" src="assests/images/instagram.png"></a>
-			<a href="https://twitter.com" target="_blank" ><img class="social_img" src="assests/images/twitter.png" width="22px" height="20px"></a>
-		</div>	
-	</footer>
+    <footer id="footer1" style="display: flex"></footer>
 </div>
+<script type="text/javascript" src="scripts/common.js"></script>
+<script type="text/javascript" src="scripts/payment.js"></script>
 </body>
 </html>
