@@ -66,37 +66,6 @@ let contactUsModal=`<div class="modal fade" id="contact" tabindex="-1" role="dia
 document.getElementById('footer1').innerHTML=footerTemplate;
 document.getElementById('contactUsModalCreation').innerHTML=contactUsModal;
 
-// function doLogin(){
-//     let username1 = document.getElementById('username').value;
-//     let password1 = document.getElementById('password').value;
-
-//     if(username1 === "admin" && password1 === "admin"){
-//         alert('Successfully LoggedIn');
-//         sessionStorage.username === 'admin';
-//         sessionStorage.isLoggedIn = true;
-//         let loginElement = document.getElementById('loginbutton');
-//         loginElement.dataset.target = '';
-//         loginElement.innerText = 'LOGOUT';
-//         location.reload();
-//     }
-//     else{
-//         alert('Please enter correct username/password');
-//     }
-// }
-
-// let loginElement = document.getElementById('loginbutton');
-// let checkLogin = () => {
-//     if (!isLogin || isLogin === 'false') {
-//         localStorage.clear();
-//         loginElement.dataset.target = '#login-modal';
-//         loginElement.innerText = 'LOGIN';
-//     } else if (isLogin === 'true') {
-//         loginElement.dataset.target = '';
-//         loginElement.innerText = 'LOGOUT';
-//     }
-// }
-
-// checkLogin();
 
 function mainLogin (e){
     if (localStorage.getItem('isLogin') === 'true') {

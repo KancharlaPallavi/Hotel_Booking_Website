@@ -1,6 +1,6 @@
 function myFunction() {
-  var images = document.getElementById("cityImages1");
-  var btnText = document.getElementsByClassName("viewmore")[0];
+  let images = document.getElementById("cityImages1");
+  let btnText = document.getElementsByClassName("viewmore")[0];
 
   if (images.style.display != "none") {
     btnText.innerHTML = "ViewMore"; 
@@ -10,3 +10,4 @@ function myFunction() {
     images.style.display = "inline";
   }
 }
+
